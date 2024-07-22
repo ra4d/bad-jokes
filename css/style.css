@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+body {
+    height: 100dvh;
+    background-color: #686de0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+.container {
+    width: 95%;
+    height: 50%;
+    background-color: white;
+    box-shadow: 0 6px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    border-radius: 12px;
+}
+.dodo {
+    text-transform: capitalize;
+    color: gray;
+
+}
+
+.demo {
+    font-size: 30px;
+    width: 80%;
+    text-align: center;
+}
+.btn {
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+    color: white;
+    background-color: blueviolet;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    height: 40px;
+    outline: none;
+    border-radius: 8px;
+    text-transform: capitalize;
+}
+.btn:active {
+    scale: 0.98;
+}
+
+
+
+
+
